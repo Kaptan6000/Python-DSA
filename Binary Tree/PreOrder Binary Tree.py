@@ -30,7 +30,7 @@ def takeInput():
 
     root = BinaryTreeNode(levelOrder[start])
     start += 1
-
+   
     q = queue.Queue()
     q.put(root)
 
